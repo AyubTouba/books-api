@@ -1,0 +1,15 @@
+language: node_js
+node_js:
+  - 10.13.0
+install:
+  - npm install
+script:
+  - npm run test
+deploy:
+  provider: heroku
+  api_key:
+    secure: "338a7a60-286f-4c01-868a-4492e85e5756"
+  app: books-api-v1
+  on:
+    all_branches: true
+  run: "npm run start"
