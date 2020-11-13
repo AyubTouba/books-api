@@ -12,6 +12,6 @@ describe('Books', () => {
         const id = "2";
         const bookFounded = booksData.filter(b => b.id == id);
 
-        expect(bookFounded[0].id).toEqual(3)
+        expect(bookFounded[0].id).toEqual(id)
     })
   })
