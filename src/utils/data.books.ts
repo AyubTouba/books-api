@@ -37,4 +37,10 @@ export var books: Book[] = [
       description: "Book 6 talk about bla bla",
       price: 268,
     },
+    {
+      id: "7",
+      name: "Book 76",
+      description: "Book7 6 talk about bla bla",
+      price: 268,
+    },
   ];
