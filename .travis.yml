@@ -1,15 +1,15 @@
 language: node_js
 node_js:
-  - 10.13.0
+- 10.13.0
 install:
-  - npm install
+- npm install
 script:
-  - npm run test
+- npm run test
 deploy:
   provider: heroku
   api_key:
-    secure: "338a7a60-286f-4c01-868a-4492e85e5756"
+    secure: MiLV/AdP048ubyUlWuwvlzt5EwYRoW/C3zEQPA42ZUg2OSF+C6+4Ij7adfMcE4nD7eI90XXAwvqlY2I1B3z1roF3d1R/lmbR7oG/50KNcLXSqxrJYdHfBqMFzY/BVhTsbryjJYAQ514ZP+R/bNOuolxiZK98YL5tWDq2dg+Uc76khpentVnKqvOLt3xBgUus7frDkopM+JVUbkSULLqTdxsk+ZWVZ8hN/iuLTwuD1UxGXfQJ0ZXXmcM/jEtemg40pjRp8gtJonrUSAfRjDl+7D+xUo6OMW9lYnYtMDriCjenoasLki3fgcQTMdflpczgwpxsQpExHEG7/U1k9JEe99T65NPXfiyt6ltnCbx/dPohFcoOcHFjx9eVhsnVzmXb3eOfiBpzs3S5Ch97oo/9xDqGTBfPUAPTx8d3Q2Y8aoLsuIr2mVYqj/3Y/ixjK/ZZeOaVFaC8SwsYUYKZ8HCNOCkZd7VsH8vphAp1NUFVllFrOgnozV6ZTwBEv1sV8eKY8zlbEIfKFjpUqsqmamwF3Vullh8hCHZOXvJkm67A+VE5dVTi9DpZ6Lu6iGR+o/G/vmweYw4r70wtaqkfDidZpxQsomdF0s0HSNqS253y6k2QexwkPTtgxsCmWyRcLMANYyhxHcS6oS3SCnBsrZb7JlMX8kRP80qcLMWHYtzp11k=
   app: books-api-v1
   on:
     all_branches: true
-  run: "npm run start"
+  run: npm run start
