@@ -19,8 +19,8 @@ const getBook =  (req: Request, res: Response) => {
 
 // @desc    Add book
 // @route   POST /api/v1/book
-const addBooks = async (req: Request, res: Response) => {
-  const body = await req.body();
+const addBooks =  (req: Request, res: Response) => {
+  const body =  req.body
   const book = body.value;
 
   if (!req.body) {
@@ -35,11 +35,11 @@ const addBooks = async (req: Request, res: Response) => {
 
 // @desc    Update single book
 // @route   PUT /api/v1/book/:id
-const updateBook = async (req: Request, res: Response)  => {
+const updateBook =  (req: Request, res: Response)  => {
   const book: Book | undefined = booksData.find((p) => p.id === req.params.id);
 
   if (book) {
-    const body = await req.body();
+    const body =  req.body;
     const bookUpdated: {
       name?: string;
       description?: string;
