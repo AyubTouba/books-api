@@ -13,4 +13,4 @@ deploy:
   app: books-api-v1
   on:
     all_branches: true
-  run: npm run start
+# run: npm run start
