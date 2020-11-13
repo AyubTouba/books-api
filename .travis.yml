@@ -10,8 +10,7 @@ deploy:
   provider: heroku
   api_key:
     secure: 1QpX0Rcbvj2fd+rOHTEy8eVeVb3mL2XLq/XpQoz79mhbAq6mBOFEa/wbR2+2J0/UzUFWUD9sYQ9VrwFg7z5BalkN7mIjRst7WlZH31LQIvLLWIN+QS51j6bxZmpYy0Gwt72Gh1TOE8d6N+E0jgqXgHg4qZHtAS2lmKhj5W05ydeCp6VLVtzZpvJmJqS3aFzLAvobcmTFu5ShNUIX9in4crjEGspZuo23seDpFVwNQ1qyvvbSDWlq7aqhN1yZ2hTZdXXNgoiw0YzJs8SAD3AihqD9rYvnOuema70ixva+qYTURXFId4Lli5+I8wYe3HmMbYClWNsn2n9rZijgTBhw/yw81mp/FRhU5d5gG7PDJhrpawb7mLgRv5KQSMfJ6ELlF8ytSE3eBRRRBGHbXH214cVvRdxh4BTykHHX+wCLDN634o/bfqjDapVPpA6c+qpXmfnHBKMWebfYF8qBUProDICVddyDRCCgplN6o4Gg1YGGex81aGIZ4+x2CyyP3HvEvkp+H84bG3lrJG3F7bcN700x58f30wxyvdT1I4TMsyQ+qCR2R4u4CEgZSwi78L7R3Cjc1/4hFZgW9UpBAjDN+NVbyBL1EtqBH96n1zpL9+tyJEAq95PYhP1pGe7mCVpGFBaKAIwCl36/uynEXpAYq8jF5ZKaGuimkhxxzfccLg4=
-  app: books-api-v1
-  branches:
-    only:
-    - develop
+#  app: books-api-v1
+  app:
+    develop: books-api-v1
 # run: npm run start
